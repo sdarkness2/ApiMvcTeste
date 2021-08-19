@@ -3,25 +3,26 @@ using System.Linq;
 using TesteMVCApi.Models;
 using System.Net.Http;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 namespace TesteMVCApi.Services
 {
     public class ClienteService
     {
-        private List<Cliente> clientes;
+        private  IEnumerable<Cliente> clientes;
 
         public ClienteService()
         {
             this.clientes = new List<Cliente>();
         }
 
-        public List<Cliente> GetClientes()
+        public async Task<IEnumerable<Cliente>> GetClientes()
         {
-            IAsyncEnumerable<Cliente> clientes = this.GetAllClientes();
-            return clientes.ToListAsync().Result;
+            IEnumerable<Cliente> clientes = await this.GetAllClientes();
+            return clientes.ToList();
         }
 
-        private async IAsyncEnumerable<Cliente> GetAllClientes()
+        private async Task<IEnumerable<Cliente>> GetAllClientes()
         {
             // Consumo da API
             var uri = "http://localhost:17616/produtos";
@@ -32,14 +33,16 @@ namespace TesteMVCApi.Services
                     if (response.IsSuccessStatusCode)
                     {
                         var strJson = await response.Content.ReadAsStringAsync();
-                        clientes = JsonConvert.DeserializeObject<IEnumerable<Cliente>>(strJson).ToList();
-                        foreach (var p in clientes)
-                        {
-                            yield return p;
-                        }
+                        clientes =  JsonConvert.DeserializeObject<IEnumerable<Cliente>>(strJson).ToList();
+
+                        return clientes;
                     }
+
+                    return null;
                 }
             }
+
+            
         }
 
     }

@@ -7330,24 +7330,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\theca\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\Testes com API\\ApiTestes\\ApiTestes.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Nova pasta\\ApiMvcTeste\\ApiTestes\\ApiTestes.csproj",
       "projectName": "ApiTestes",
-      "projectPath": "C:\\workspace\\Testes com API\\ApiTestes\\ApiTestes.csproj",
-      "packagesPath": "C:\\Users\\theca\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\Testes com API\\ApiTestes\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Nova pasta\\ApiMvcTeste\\ApiTestes\\ApiTestes.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Nova pasta\\ApiMvcTeste\\ApiTestes\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\theca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7410,7 +7405,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
