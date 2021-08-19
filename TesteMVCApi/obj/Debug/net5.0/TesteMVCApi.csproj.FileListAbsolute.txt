@@ -1,0 +1,8 @@
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.csprojAssemblyReference.cache
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.AssemblyInfoInputs.cache
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.AssemblyInfo.cs
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.csproj.CoreCompileInputs.cache
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.MvcApplicationPartsAssemblyInfo.cache
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.RazorAssemblyInfo.cache
+C:\workspace\Testes com API\TesteMVCApi\obj\Debug\net5.0\TesteMVCApi.RazorAssemblyInfo.cs
